@@ -12,3 +12,4 @@ C:\Users\HP\Desktop\Ongoing\TCP Server\obj\Debug\net8.0\refint\TCP Server.dll
 C:\Users\HP\Desktop\Ongoing\TCP Server\obj\Debug\net8.0\TCP Server.pdb
 C:\Users\HP\Desktop\Ongoing\TCP Server\obj\Debug\net8.0\TCP Server.genruntimeconfig.cache
 C:\Users\HP\Desktop\Ongoing\TCP Server\obj\Debug\net8.0\ref\TCP Server.dll
+C:\Users\HP\Desktop\Ongoing\TCP Server\obj\Debug\net8.0\TCP Server.sourcelink.json

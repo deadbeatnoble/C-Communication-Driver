@@ -4,21 +4,21 @@ using System.Text;
 
 class TCPServer {
     private static TcpListener listener;
-    private static bool isRunning = true;
+    private static bool isServerRunning = true;
 
     static void Main()
     {
         int port = 5000;
         listener = new TcpListener(IPAddress.Any, port);
         listener.Start();
-        Console.WriteLine($"Server started on port {port}");
+        Console.WriteLine($"Server listening on port {port}");
 
-        while (isRunning)
+        while (isServerRunning)
         {
             try
             {
                 TcpClient client = listener.AcceptTcpClient();
-                Console.WriteLine("Client connected.");
+                Console.WriteLine("Client connected!");
                 Thread clientThread = new Thread(HandleClient);
                 clientThread.Start(client);
             }
@@ -42,10 +42,10 @@ class TCPServer {
             while (true)
             {
                 int bytesRead = stream.Read(buffer, 0, buffer.Length);
-                if (bytesRead == 0) break; // Client disconnected
+                if (bytesRead == 0) break;
 
                 string request = Encoding.ASCII.GetString(buffer, 0, bytesRead);
-                Console.WriteLine($"Received: {request}");
+                Console.WriteLine($"Received Command: {request}");
 
                 string response = ProcessCommand(request.Trim());
                 byte[] responseData = Encoding.ASCII.GetBytes(response);
@@ -59,7 +59,7 @@ class TCPServer {
         finally
         {
             client.Close();
-            Console.WriteLine("Client disconnected.");
+            Console.WriteLine("Client disconnected!");
         }
     }
 
@@ -68,7 +68,7 @@ class TCPServer {
         switch (command.ToUpper())
         {
             case "GET_TEMP":
-                return "TEMP: 25.3C";
+                return "TEMP: 30C";
             case "GET_STATUS":
                 return "STATUS: OK";
             default:

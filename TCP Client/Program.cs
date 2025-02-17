@@ -1,7 +1,7 @@
 ﻿using System.Net.Sockets;
 using System.Text;
 
-class TCPCLeint
+class TCPClient
 {
     static void Main(string[] args)
     {
@@ -12,7 +12,7 @@ class TCPCLeint
         {
             using (TcpClient client = new TcpClient(serverIp, port))
             {
-                Console.WriteLine("Connected to server.");
+                Console.WriteLine("Connected to server!");
                 NetworkStream stream = client.GetStream();
 
                 while (true)
@@ -30,7 +30,7 @@ class TCPCLeint
                     int bytesRead = stream.Read(buffer, 0, buffer.Length);
                     string response = Encoding.ASCII.GetString(buffer, 0, bytesRead);
 
-                    Console.WriteLine($"Response: {response}");
+                    Console.WriteLine(response);
                 }
             }
         }
