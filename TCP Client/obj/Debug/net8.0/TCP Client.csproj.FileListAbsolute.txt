@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\Ongoing\TCP Client\bin\Debug\net8.0\TCP Client.exe
+C:\Users\HP\Desktop\Ongoing\TCP Client\bin\Debug\net8.0\TCP Client.deps.json
+C:\Users\HP\Desktop\Ongoing\TCP Client\bin\Debug\net8.0\TCP Client.runtimeconfig.json
+C:\Users\HP\Desktop\Ongoing\TCP Client\bin\Debug\net8.0\TCP Client.dll
+C:\Users\HP\Desktop\Ongoing\TCP Client\bin\Debug\net8.0\TCP Client.pdb
+C:\Users\HP\Desktop\Ongoing\TCP Client\obj\Debug\net8.0\TCP Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Ongoing\TCP Client\obj\Debug\net8.0\TCP Client.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Ongoing\TCP Client\obj\Debug\net8.0\TCP Client.AssemblyInfo.cs
+C:\Users\HP\Desktop\Ongoing\TCP Client\obj\Debug\net8.0\TCP Client.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Ongoing\TCP Client\obj\Debug\net8.0\TCP Client.dll
+C:\Users\HP\Desktop\Ongoing\TCP Client\obj\Debug\net8.0\refint\TCP Client.dll
+C:\Users\HP\Desktop\Ongoing\TCP Client\obj\Debug\net8.0\TCP Client.pdb
+C:\Users\HP\Desktop\Ongoing\TCP Client\obj\Debug\net8.0\TCP Client.genruntimeconfig.cache
+C:\Users\HP\Desktop\Ongoing\TCP Client\obj\Debug\net8.0\ref\TCP Client.dll
